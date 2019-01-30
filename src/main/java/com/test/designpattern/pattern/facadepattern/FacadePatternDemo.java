@@ -7,9 +7,9 @@ package com.test.designpattern.pattern.facadepattern;
  */
 public class FacadePatternDemo {
     public static void main(String[] args) {
-        ShapeFacade shapeMaker = new ShapeFacade();
-        shapeMaker.drawCircle();
-        shapeMaker.drawTriangle();
-        shapeMaker.drawSquare();
+        ComputerFacade computerFacade = new ComputerFacade();
+        computerFacade.makeLenovo();
+        computerFacade.makeASUS();
+        computerFacade.makeMacBook();
     }
 }

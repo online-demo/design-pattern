@@ -3,11 +3,11 @@ package com.test.designpattern.pattern.facadepattern;
 /**
  * @Author: zhouguanya
  * @Date: 2018/12/1
- * @Description: 图形接口
+ * @Description: 电脑接口
  */
-public interface Shape {
+public interface Computer {
     /**
-     * 画图方法
+     * 制造电脑的方法
      */
-    void draw();
+    void make();
 }

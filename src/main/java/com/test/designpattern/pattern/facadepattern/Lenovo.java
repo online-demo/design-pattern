@@ -3,14 +3,14 @@ package com.test.designpattern.pattern.facadepattern;
 /**
  * @Author: zhouguanya
  * @Date: 2018/12/1
- * @Description: 原型类
+ * @Description: Lenovo电脑类
  */
-public class Circle implements Shape {
+public class Lenovo implements Computer {
     /**
      * 画圆形的方法
      */
     @Override
-    public void draw() {
-        System.out.println("Draw a circle");
+    public void make() {
+        System.out.println("produce a Lenovo Computer");
     }
 }
